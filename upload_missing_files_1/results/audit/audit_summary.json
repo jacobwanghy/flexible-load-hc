@@ -1,0 +1,23 @@
+{
+ "boundary_grids": 4,
+ "boundary_intervals": 15776064,
+ "boundary_infeasible_at": 0,
+ "boundary_feasible_above": 0,
+ "nonconv": 0,
+ "overvoltage_worsened": 0,
+ "monotone_grids": 4,
+ "monotone_cases": 42110,
+ "noncontiguous": 0,
+ "monotone_nonconv": 0,
+ "nonmonotone_line": 1135,
+ "nonmonotone_trafo": 12833,
+ "val_cases": 295,
+ "val_ovt": 55,
+ "val_err_max": 3.37537273298949,
+ "val_err_med": 0.3667782875709235,
+ "val_err_p95": 1.2207723775645727,
+ "val_false_feasible": 0,
+ "val_false_infeasible": 0,
+ "tests_passed": 42,
+ "tests_total": 42
+}

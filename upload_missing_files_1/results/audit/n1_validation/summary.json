@@ -1,0 +1,9 @@
+{
+ "note": "Rural N-1 computed twice: ring-group power flow (first implementation, contingencies only within the bus's ring group) vs per-feeder power flow with transformer-coupled buses included (final). Differences above 5 kW occur only where the final version also accounts for transformer loading changes from outages outside the group.",
+ "max_abs_diff_kW": 1606.3728332519531,
+ "buses_with_diff_gt_5kW": [
+  0
+ ],
+ "final_lower_or_equal": true,
+ "other_buses_max_abs_diff_kW": 4.912853240966797
+}

@@ -1,0 +1,12 @@
+{
+ "stats": {
+  "grid": "rural",
+  "cases": 470,
+  "nonmonotone": 0,
+  "first_infeasible_err_kW_max": 0.0,
+  "nonconv": 0,
+  "steps_total": 457348,
+  "seconds": 30
+ },
+ "issues": []
+}
