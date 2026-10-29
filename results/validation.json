@@ -1,0 +1,22 @@
+{
+ "rural": {
+  "max_dV_pu": 9.53925827218427e-12,
+  "max_dloading_pct": 1.2571213403589354e-08,
+  "all_conv": true
+ },
+ "semiurb": {
+  "max_dV_pu": 6.397105067890152e-13,
+  "max_dloading_pct": 6.502745009129285e-10,
+  "all_conv": true
+ },
+ "urban": {
+  "max_dV_pu": 4.023226196636642e-12,
+  "max_dloading_pct": 3.897994815815764e-09,
+  "all_conv": true
+ },
+ "comm": {
+  "max_dV_pu": 1.0411671524934718e-12,
+  "max_dloading_pct": 9.659402167017106e-10,
+  "all_conv": true
+ }
+}

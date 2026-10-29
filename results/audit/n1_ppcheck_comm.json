@@ -1,0 +1,122 @@
+[
+ {
+  "bus": 87,
+  "interval": 25490,
+  "line": 77,
+  "pbar": 5.091689109802246,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 63,
+  "interval": 33934,
+  "line": 51,
+  "pbar": 5.665166854858398,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 53,
+  "interval": 24456,
+  "line": 41,
+  "pbar": 2.636065721511841,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 104,
+  "interval": 33200,
+  "line": 84,
+  "pbar": 5.39754056930542,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 6,
+  "interval": 15468,
+  "line": 85,
+  "pbar": 6.395662307739258,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 35,
+  "interval": 11452,
+  "line": 28,
+  "pbar": 5.790773391723633,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 11,
+  "interval": 11135,
+  "line": 82,
+  "pbar": 7.993212699890137,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 69,
+  "interval": 31330,
+  "line": 51,
+  "pbar": 6.234897613525391,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 58,
+  "interval": 12647,
+  "line": 51,
+  "pbar": 6.768676280975342,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 45,
+  "interval": 4126,
+  "line": 38,
+  "pbar": 5.912038326263428,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 34,
+  "interval": 18811,
+  "line": 28,
+  "pbar": 6.002381801605225,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 87,
+  "interval": 15129,
+  "line": 77,
+  "pbar": 5.196394443511963,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 47,
+  "interval": 22375,
+  "line": 41,
+  "pbar": 2.160586357116699,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 19,
+  "interval": 27999,
+  "line": 41,
+  "pbar": 3.952249765396118,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 73,
+  "interval": 33786,
+  "line": 28,
+  "pbar": 7.710925579071045,
+  "feasible_at": true,
+  "infeasible_above": true
+ }
+]

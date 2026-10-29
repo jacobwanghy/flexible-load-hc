@@ -1,0 +1,122 @@
+[
+ {
+  "bus": 79,
+  "interval": 6815,
+  "line": 74,
+  "pbar": 1.2972465753555298,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 55,
+  "interval": 20272,
+  "line": 47,
+  "pbar": 2.507248878479004,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 46,
+  "interval": 3763,
+  "line": 3,
+  "pbar": 2.216909885406494,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 95,
+  "interval": 912,
+  "line": 26,
+  "pbar": 1.4659523963928223,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 5,
+  "interval": 3061,
+  "line": 0,
+  "pbar": 2.326467514038086,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 29,
+  "interval": 9712,
+  "line": 22,
+  "pbar": 2.610201120376587,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 7,
+  "interval": 33809,
+  "line": 3,
+  "pbar": 1.8865346908569336,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 61,
+  "interval": 171,
+  "line": 46,
+  "pbar": 2.868163585662842,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 50,
+  "interval": 15535,
+  "line": 46,
+  "pbar": 1.8837838172912598,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 38,
+  "interval": 8613,
+  "line": 26,
+  "pbar": 1.3309791088104248,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 28,
+  "interval": 19406,
+  "line": 22,
+  "pbar": 1.9962806701660156,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 78,
+  "interval": 32461,
+  "line": 74,
+  "pbar": 1.3268338441848755,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 40,
+  "interval": 19423,
+  "line": 36,
+  "pbar": 1.8357149362564087,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 15,
+  "interval": 1837,
+  "line": 0,
+  "pbar": 1.634592890739441,
+  "feasible_at": true,
+  "infeasible_above": true
+ },
+ {
+  "bus": 64,
+  "interval": 25747,
+  "line": 60,
+  "pbar": 3.6008145809173584,
+  "feasible_at": true,
+  "infeasible_above": true
+ }
+]

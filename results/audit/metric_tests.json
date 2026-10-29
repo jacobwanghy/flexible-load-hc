@@ -1,0 +1,212 @@
+[
+ {
+  "test": "hour budget N=0: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=0.0"
+ },
+ {
+  "test": "hour budget N=0: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=0.0"
+ },
+ {
+  "test": "hour budget N=0: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=0.25"
+ },
+ {
+  "test": "hour budget N=0.25: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=0.25"
+ },
+ {
+  "test": "hour budget N=0.25: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=0.25"
+ },
+ {
+  "test": "hour budget N=0.25: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=0.5"
+ },
+ {
+  "test": "hour budget N=1: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=1.0"
+ },
+ {
+  "test": "hour budget N=1: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=1.0"
+ },
+ {
+  "test": "hour budget N=1: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=1.25"
+ },
+ {
+  "test": "hour budget N=50: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=50.0"
+ },
+ {
+  "test": "hour budget N=50: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=50.0"
+ },
+ {
+  "test": "hour budget N=50: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=50.25"
+ },
+ {
+  "test": "hour budget N=100: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=100.0"
+ },
+ {
+  "test": "hour budget N=100: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=100.0"
+ },
+ {
+  "test": "hour budget N=100: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=100.25"
+ },
+ {
+  "test": "hour budget N=200: curtailed hours <= N",
+  "passed": true,
+  "detail": "hours=200.0"
+ },
+ {
+  "test": "hour budget N=200: exactly N hours (no ties)",
+  "passed": true,
+  "detail": "hours=200.0"
+ },
+ {
+  "test": "hour budget N=200: maximal (slightly larger P exceeds N)",
+  "passed": true,
+  "detail": "hours=200.25"
+ },
+ {
+  "test": "hour budget N=0 equals firm HC",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "tie: P equal to headroom is not curtailed",
+  "passed": true,
+  "detail": "{'energy_frac': np.float64(0.0), 'hours': np.float64(0.0), 'n_events': 0, 'max_event_h': 0.0, 'med_event_h': 0.0, 'single_share': 0.0, 'max_depth': np.float64(0.0)}"
+ },
+ {
+  "test": "tie: hour budget with tied minimum stays at tied value",
+  "passed": true,
+  "detail": "1.0"
+ },
+ {
+  "test": "energy budget a=0.0025: within budget",
+  "passed": true,
+  "detail": "frac=0.002500"
+ },
+ {
+  "test": "energy budget a=0.0025: maximal",
+  "passed": true,
+  "detail": "frac_up=0.002516"
+ },
+ {
+  "test": "energy budget a=0.005: within budget",
+  "passed": true,
+  "detail": "frac=0.005000"
+ },
+ {
+  "test": "energy budget a=0.005: maximal",
+  "passed": true,
+  "detail": "frac_up=0.005022"
+ },
+ {
+  "test": "energy budget a=0.01: within budget",
+  "passed": true,
+  "detail": "frac=0.010000"
+ },
+ {
+  "test": "energy budget a=0.01: maximal",
+  "passed": true,
+  "detail": "frac_up=0.010031"
+ },
+ {
+  "test": "energy budget a=0.05: within budget",
+  "passed": true,
+  "detail": "frac=0.050000"
+ },
+ {
+  "test": "energy budget a=0.05: maximal",
+  "passed": true,
+  "detail": "frac_up=0.050071"
+ },
+ {
+  "test": "E(P)/P non-decreasing in P",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "shaped a=0.0025: curtailed energy <= alpha * own energy",
+  "passed": true,
+  "detail": "E=105.6028 own=105.6028 (flat-style denominator would be 117.3364)"
+ },
+ {
+  "test": "shaped a=0.0025: maximal",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "shaped a=0.01: curtailed energy <= alpha * own energy",
+  "passed": true,
+  "detail": "E=444.0603 own=444.0603 (flat-style denominator would be 493.4003)"
+ },
+ {
+  "test": "shaped a=0.01: maximal",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "flat shape reproduces flat energy budget",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "shaped hour budget N=0: curtailed hours <= N",
+  "passed": true,
+  "detail": "0.0"
+ },
+ {
+  "test": "shaped hour budget N=1: curtailed hours <= N",
+  "passed": true,
+  "detail": "1.0"
+ },
+ {
+  "test": "shaped hour budget N=100: curtailed hours <= N",
+  "passed": true,
+  "detail": "100.0"
+ },
+ {
+  "test": "shaped firm = min pbar/f is feasible everywhere",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "shaped profile has no zero intervals (f>0)",
+  "passed": true,
+  "detail": "min f=0.80"
+ },
+ {
+  "test": "events: 3 events, 6 curtailed intervals = 1.5 h, longest 0.75 h",
+  "passed": true,
+  "detail": "{'energy_frac': np.float64(0.3), 'hours': np.float64(1.5), 'n_events': 3, 'max_event_h': np.float64(0.75), 'med_event_h': 0.5, 'single_share': 0.3333333333333333, 'max_depth': np.float64(0.5)}"
+ },
+ {
+  "test": "events: deepest curtailment (2-1)/2 = 50%",
+  "passed": true,
+  "detail": "0.5"
+ }
+]

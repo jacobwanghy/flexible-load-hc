@@ -1,0 +1,1739 @@
+{
+ "summary": {
+  "tag": "comm_oltc_S2",
+  "buses": 107,
+  "intervals": 3759552,
+  "infeasible_at": 0,
+  "feasible_above": 0,
+  "nonconv_at": 0,
+  "nonconv_above": 0,
+  "overvoltage_worsened": 0,
+  "reason_above": {
+   "vlow": 405739,
+   "vhigh": 0,
+   "line": 3318677,
+   "trafo": 35136,
+   "nonconv": 0
+  },
+  "base_intervals_with_preexisting_violation": {
+   "vlow": 0,
+   "vhigh": 0,
+   "line": 0,
+   "trafo": 0
+  }
+ },
+ "per_bus": [
+  {
+   "bus": 2,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 7.918299027576126e-08,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 35136,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 5,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.2074166502173966e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 6,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.5271680697814816e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 7,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1405081878912426e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 8,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1526202660094853e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 9,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1717121871646086e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 10,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1523353503628542e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 11,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1654533579319448e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 12,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.163564512740578e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 13,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.3738160047349623e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 14,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4124345140142935e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 15,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4609003307075596e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 16,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.5421492464140485e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 3587,
+    "vhigh": 0,
+    "line": 31549,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 17,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.5740425266530522e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35114,
+    "vhigh": 0,
+    "line": 22,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 18,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 2.6366820948808822e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 19,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 2.9104519816414154e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 20,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 3.1895771090972858e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 21,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 3.5685777777239025e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 22,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 3.8278326153218245e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 23,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 4.303751084400176e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 24,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.372992935233519e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 25,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.3913687134659014e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 26,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4192403599011527e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 27,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4698450804262464e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 28,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.477328522514476e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 29,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.483149141834339e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 30,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4588030264883756e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 31,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.49657486292476e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 32,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.5014906208365986e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 33,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.507242515463858e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 34,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.99560009207201e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 35,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0054793547764618e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 36,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0112391289895939e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 37,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0167815078787612e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 38,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0270850024918232e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 39,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0341547832526388e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 40,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0400168668489584e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 41,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.005130164988266e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 42,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0077666869889867e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 43,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0106999425163465e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 44,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.4018861385078907e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 45,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.6669884256304002e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 46,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 2.098992170740388e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 47,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1302530844581327e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 48,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1431368650560714e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 49,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1481069712715453e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 50,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1571569373813873e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 51,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1618560873394301e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 52,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1670209032477175e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 53,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1779753230634071e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 54,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.184969595779961e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 55,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1901109550072064e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 56,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.2047965750605627e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 57,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 8.886465144852806e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 58,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 8.988758160022314e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 59,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.0440823918847e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 60,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.085404084618887e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 61,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.228527378946083e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 62,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.039449005868498e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 63,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.045072480998499e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 64,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.052338493678917e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 65,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.058666984965484e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 66,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0632940776744704e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 67,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0710035405203655e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 68,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0913560563041713e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 69,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1048698548288272e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 70,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.111561551470075e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 71,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1182521776342824e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 72,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1244108603092329e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 73,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.1276998217457646e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 16528,
+    "vhigh": 0,
+    "line": 18608,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 74,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.131831365852598e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 34287,
+    "vhigh": 0,
+    "line": 849,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 75,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.2014150313488514e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35135,
+    "vhigh": 0,
+    "line": 1,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 76,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.6334635133397057e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 77,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.6663125101956666e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 35136,
+    "vhigh": 0,
+    "line": 0,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 78,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.84299950324008e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 79,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.861036798231027e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 80,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.934169769021395e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 81,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0139679154086423e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 82,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0188458092752484e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 83,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.021550705582186e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 84,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0238338400414548e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 85,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0266834050698392e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 86,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.032529301281393e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 87,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.036024979694794e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 88,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0033378199381104e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 89,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.019118940570607e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 90,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 8.993058234763041e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 91,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.119302262217133e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 92,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.154549170942161e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 93,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.17841170844369e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 94,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.208671677418678e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 95,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.27335593203793e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 96,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.312676017003696e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 97,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.363642121673621e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 98,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.41627755324248e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 99,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.465695451904566e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 100,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.50774474040017e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 101,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.551028020693408e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 102,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.574423524005837e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 103,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.659932070915644e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 104,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.705585904962177e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 105,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.750538197961234e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 106,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 9.77484412634233e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 107,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0535375537523706e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 108,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 1.0609256463345318e-06,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 109,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 6.478015556199423e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  },
+  {
+   "bus": 110,
+   "nonconv_at": 0,
+   "infeasible_at": 0,
+   "overvoltage_worsened": 0,
+   "minmargin_at": 6.553607951875762e-07,
+   "nonconv_above": 0,
+   "feasible_above": 0,
+   "reason_above": {
+    "vlow": 0,
+    "vhigh": 0,
+    "line": 35136,
+    "trafo": 0,
+    "nonconv": 0
+   }
+  }
+ ]
+}

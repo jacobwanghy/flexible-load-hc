@@ -1,0 +1,12 @@
+{
+ "stats": {
+  "grid": "comm",
+  "cases": 511,
+  "nonmonotone": 0,
+  "first_infeasible_err_kW_max": 0.0,
+  "nonconv": 0,
+  "steps_total": 676077,
+  "seconds": 39
+ },
+ "issues": []
+}
