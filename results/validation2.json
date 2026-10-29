@@ -1,0 +1,50 @@
+{
+ "rural_fixed": {
+  "max_dV_pu": 4.496714112178779e-11,
+  "max_dline_pct": 2.827313494435657e-08,
+  "max_dtrafo_pct": 3.1314895121425934e-09,
+  "conv": true
+ },
+ "semiurb_fixed": {
+  "max_dV_pu": 2.9646285426565555e-12,
+  "max_dline_pct": 4.792056529367983e-09,
+  "max_dtrafo_pct": 4.738709424856324e-10,
+  "conv": true
+ },
+ "urban_fixed": {
+  "max_dV_pu": 1.1301626301474244e-11,
+  "max_dline_pct": 1.851040565270523e-08,
+  "max_dtrafo_pct": 5.041783657233623e-09,
+  "conv": true
+ },
+ "comm_fixed": {
+  "max_dV_pu": 1.1404654998159458e-11,
+  "max_dline_pct": 9.917343390952738e-09,
+  "max_dtrafo_pct": 8.458747591255644e-10,
+  "conv": true
+ },
+ "rural_oltc": {
+  "max_dV_pu": 4.250977347908247e-11,
+  "max_dline_pct": 2.790245900996524e-08,
+  "max_dtrafo_pct": 3.0658448002540695e-09,
+  "conv": true
+ },
+ "semiurb_oltc": {
+  "max_dV_pu": 5.0999759970693503e-11,
+  "max_dline_pct": 4.886663873548969e-08,
+  "max_dtrafo_pct": 4.526647112701454e-09,
+  "conv": true
+ },
+ "urban_oltc": {
+  "max_dV_pu": 1.4990231278488864e-11,
+  "max_dline_pct": 5.0360796421955456e-08,
+  "max_dtrafo_pct": 1.1153927781393236e-08,
+  "conv": true
+ },
+ "comm_oltc": {
+  "max_dV_pu": 2.42834641284162e-11,
+  "max_dline_pct": 3.573051543526162e-08,
+  "max_dtrafo_pct": 4.4051026715230535e-09,
+  "conv": true
+ }
+}

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Firm HC and Median Flexibility Gains by Grid}
+\label{tab:res}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccccccc}
+\toprule
+ & Firm HC & \multicolumn{3}{c}{Gain, energy budget (\%)} & Gain & \multicolumn{2}{c}{At $\alpha=1\%$} \\
+\cmidrule(lr){3-5}\cmidrule(lr){7-8}
+Grid & median & 0.25\% & 0.5\% & 1\% & 100 h & Hours & Longest \\
+ & (MW) & & & & (\%) & (h/yr) & event (h) \\
+\midrule
+Rural & 5.62 & 9.8 & 11.4 & 13.3 & 5.4 & 3072 & 19.0 \\
+Semi-urban & 6.18 & 11.0 & 12.4 & 14.2 & 6.7 & 3518 & 20.8 \\
+Urban & 5.77 & 11.6 & 13.2 & 15.1 & 7.0 & 3472 & 18.5 \\
+Commercial & 7.22 & 13.1 & 14.7 & 16.8 & 8.5 & 2945 & 18.8 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\columnwidth}\footnotesize  Gains are medians over buses of $H_k/H_k^{\mathrm{firm}}-1$. The 100~h column allows curtailment in at most 100 hours per year.\end{minipage}
+\end{table}

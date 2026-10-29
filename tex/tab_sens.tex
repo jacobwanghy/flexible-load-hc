@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Sensitivity to Network Assumptions (Pooled Medians, All Buses)}
+\label{tab:sens}
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lcccccc}
+\toprule
+Configuration & Firm & \multicolumn{2}{c}{Gain (\%)} & Gain & Hours & Buses \\
+\cmidrule(lr){3-4}
+ & (MW) & 0.25\% & 1\% & 100 h (\%) & at 1\% & V/L/T \\
+\midrule
+Base (ideal OLTC) & 6.13 & 11.5 & 15.0 & 6.8 & 3350 & 79/365/5 \\
+Fixed taps & 5.89 & 13.2 & 16.7 & 8.2 & 3190 & 106/341/2 \\
+N-1, planning band & 2.88 & 38.7 & 50.3 & 29.4 & 1536 & 241/203/5 \\
+N-1, 0.90--1.10 p.u. & 3.60 & 29.2 & 38.8 & 20.2 & 1781 & 116/328/5 \\
+Scenario 2 (future) & 5.92 & 14.1 & 18.8 & 8.1 & 2493 & 82/373/5 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\columnwidth}\footnotesize V/L/T: buses whose firm HC is set by undervoltage, line, or transformer limits; one scenario-2 bus next to a pre-existing overvoltage is counted by the limit violated just above its headroom.\end{minipage}
+\end{table}

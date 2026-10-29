@@ -1,0 +1,988 @@
+{
+ "grid": "urban",
+ "code": "1-MV-urban--0-sw",
+ "mode": "oltc",
+ "line_limit": 0.6,
+ "meta": [
+  {
+   "bus": 2,
+   "ppc": 2,
+   "name": "MV3.101 node1",
+   "zth_pu": 0.0,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 3,
+   "ppc": 1,
+   "name": "MV3.101 node2",
+   "zth_pu": 0.0,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 8,
+   "ppc": 3,
+   "name": "MV3.101 BS busbar1A",
+   "zth_pu": 0.001137446356301172,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 9,
+   "ppc": 4,
+   "name": "MV3.101 BS busbar1B",
+   "zth_pu": 0.0014969631135896579,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 10,
+   "ppc": 5,
+   "name": "MV3.101 BS busbar1C",
+   "zth_pu": 0.0018346347028879478,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 11,
+   "ppc": 6,
+   "name": "MV3.101 Bus 11",
+   "zth_pu": 0.000269065143369139,
+   "subnet": "MV3.101_LV4.301_Feeder1"
+  },
+  {
+   "bus": 12,
+   "ppc": 7,
+   "name": "MV3.101 Bus 12",
+   "zth_pu": 0.0005625945721768607,
+   "subnet": "MV3.101_LV4.302_Feeder1"
+  },
+  {
+   "bus": 13,
+   "ppc": 8,
+   "name": "MV3.101 Bus 13",
+   "zth_pu": 0.0006359774181719425,
+   "subnet": "MV3.101_LV6.301_Feeder1"
+  },
+  {
+   "bus": 14,
+   "ppc": 9,
+   "name": "MV3.101 Bus 14",
+   "zth_pu": 0.0008316657844818154,
+   "subnet": "MV3.101_LV4.303_Feeder1"
+  },
+  {
+   "bus": 15,
+   "ppc": 10,
+   "name": "MV3.101 Bus 15",
+   "zth_pu": 0.0012879486294232498,
+   "subnet": "MV3.101_LV4.304_Feeder1"
+  },
+  {
+   "bus": 16,
+   "ppc": 11,
+   "name": "MV3.101 Bus 16",
+   "zth_pu": 0.002060116818824827,
+   "subnet": "MV3.101_LV5.301_Feeder1"
+  },
+  {
+   "bus": 17,
+   "ppc": 12,
+   "name": "MV3.101 Bus 17",
+   "zth_pu": 0.002312198122286347,
+   "subnet": "MV3.101_LV5.302_Feeder1"
+  },
+  {
+   "bus": 18,
+   "ppc": 13,
+   "name": "MV3.101 Bus 18",
+   "zth_pu": 0.0025210749365343153,
+   "subnet": "MV3.101_LV6.302_Feeder1"
+  },
+  {
+   "bus": 19,
+   "ppc": 14,
+   "name": "MV3.101 Bus 19",
+   "zth_pu": 0.0011096655046460072,
+   "subnet": "MV3.101_LV5.303_Feeder1"
+  },
+  {
+   "bus": 20,
+   "ppc": 15,
+   "name": "MV3.101 Bus 20",
+   "zth_pu": 0.001429940867455984,
+   "subnet": "MV3.101_LV4.305_Feeder1"
+  },
+  {
+   "bus": 21,
+   "ppc": 16,
+   "name": "MV3.101 Bus 21",
+   "zth_pu": 0.001611106236910532,
+   "subnet": "MV3.101_LV6.303_Feeder1"
+  },
+  {
+   "bus": 22,
+   "ppc": 17,
+   "name": "MV3.101 Bus 22",
+   "zth_pu": 0.00029352685557576503,
+   "subnet": "MV3.101_LV4.306_Feeder2"
+  },
+  {
+   "bus": 23,
+   "ppc": 18,
+   "name": "MV3.101 Bus 23",
+   "zth_pu": 0.0005503678302958277,
+   "subnet": "MV3.101_LV5.304_Feeder2"
+  },
+  {
+   "bus": 24,
+   "ppc": 19,
+   "name": "MV3.101 Bus 24",
+   "zth_pu": 0.0007827511304702091,
+   "subnet": "MV3.101_LV5.305_Feeder2"
+  },
+  {
+   "bus": 25,
+   "ppc": 20,
+   "name": "MV3.101 Bus 25",
+   "zth_pu": 0.0008928283807375721,
+   "subnet": "MV3.101_LV4.307_Feeder2"
+  },
+  {
+   "bus": 26,
+   "ppc": 21,
+   "name": "MV3.101 Bus 26",
+   "zth_pu": 0.0005583885061173959,
+   "subnet": "MV3.101_LV4.308_Feeder3"
+  },
+  {
+   "bus": 27,
+   "ppc": 22,
+   "name": "MV3.101 Bus 27",
+   "zth_pu": 0.0009492685433473255,
+   "subnet": "MV3.101_LV5.306_Feeder3"
+  },
+  {
+   "bus": 28,
+   "ppc": 23,
+   "name": "MV3.101 Bus 28",
+   "zth_pu": 0.0013680737224631497,
+   "subnet": "MV3.101_LV4.309_Feeder3"
+  },
+  {
+   "bus": 29,
+   "ppc": 24,
+   "name": "MV3.101 Bus 29",
+   "zth_pu": 0.001731040809827717,
+   "subnet": "MV3.101_LV4.310_Feeder3"
+  },
+  {
+   "bus": 30,
+   "ppc": 25,
+   "name": "MV3.101 Bus 30",
+   "zth_pu": 0.0019683660067101746,
+   "subnet": "MV3.101_LV4.311_Feeder3"
+  },
+  {
+   "bus": 31,
+   "ppc": 26,
+   "name": "MV3.101 Bus 31",
+   "zth_pu": 0.0021129849321504675,
+   "subnet": "MV3.101_LV5.307_Feeder3"
+  },
+  {
+   "bus": 32,
+   "ppc": 27,
+   "name": "MV3.101 Bus 32",
+   "zth_pu": 0.0025309371774637356,
+   "subnet": "MV3.101_LV6.304_Feeder3"
+  },
+  {
+   "bus": 33,
+   "ppc": 28,
+   "name": "MV3.101 Bus 33",
+   "zth_pu": 0.002916884134821637,
+   "subnet": "MV3.101_LV4.312_Feeder3"
+  },
+  {
+   "bus": 34,
+   "ppc": 29,
+   "name": "MV3.101 Bus 34",
+   "zth_pu": 0.0032707461995593228,
+   "subnet": "MV3.101_LV5.308_Feeder3"
+  },
+  {
+   "bus": 35,
+   "ppc": 30,
+   "name": "MV3.101 Bus 35",
+   "zth_pu": 0.0034798710753196583,
+   "subnet": "MV3.101_LV6.305_Feeder3"
+  },
+  {
+   "bus": 36,
+   "ppc": 31,
+   "name": "MV3.101 Bus 36",
+   "zth_pu": 9.784162022296183e-05,
+   "subnet": "MV3.101_LV6.306_Feeder4"
+  },
+  {
+   "bus": 37,
+   "ppc": 32,
+   "name": "MV3.101 Bus 37",
+   "zth_pu": 0.00039137136389826347,
+   "subnet": "MV3.101_LV6.307_Feeder4"
+  },
+  {
+   "bus": 38,
+   "ppc": 33,
+   "name": "MV3.101 Bus 38",
+   "zth_pu": 0.0005381387541937984,
+   "subnet": "MV3.101_LV4.313_Feeder4"
+  },
+  {
+   "bus": 39,
+   "ppc": 34,
+   "name": "MV3.101 Bus 39",
+   "zth_pu": 0.0009662185649837606,
+   "subnet": "MV3.101_LV4.314_Feeder4"
+  },
+  {
+   "bus": 40,
+   "ppc": 35,
+   "name": "MV3.101 Bus 40",
+   "zth_pu": 0.0014676953790414996,
+   "subnet": "MV3.101_LV5.309_Feeder4"
+  },
+  {
+   "bus": 41,
+   "ppc": 36,
+   "name": "MV3.101 Bus 41",
+   "zth_pu": 0.0001609631910518135,
+   "subnet": "MV3.101_LV5.310_Feeder5"
+  },
+  {
+   "bus": 42,
+   "ppc": 37,
+   "name": "MV3.101 Bus 42",
+   "zth_pu": 0.00035412013890635775,
+   "subnet": "MV3.101_LV5.311_Feeder5"
+  },
+  {
+   "bus": 43,
+   "ppc": 38,
+   "name": "MV3.101 Bus 43",
+   "zth_pu": 0.0007887269556610236,
+   "subnet": "MV3.101_LV5.312_Feeder5"
+  },
+  {
+   "bus": 44,
+   "ppc": 39,
+   "name": "MV3.101 Bus 44",
+   "zth_pu": 0.0012233372319727961,
+   "subnet": "MV3.101_LV5.313_Feeder5"
+  },
+  {
+   "bus": 45,
+   "ppc": 40,
+   "name": "MV3.101 Bus 45",
+   "zth_pu": 0.0016418523161274296,
+   "subnet": "MV3.101_LV4.315_Feeder5"
+  },
+  {
+   "bus": 46,
+   "ppc": 41,
+   "name": "MV3.101 Bus 46",
+   "zth_pu": 0.0018833032889960812,
+   "subnet": "MV3.101_LV5.314_Feeder5"
+  },
+  {
+   "bus": 47,
+   "ppc": 42,
+   "name": "MV3.101 Bus 47",
+   "zth_pu": 0.0025271698599823454,
+   "subnet": "MV3.101_LV5.315_Feeder5"
+  },
+  {
+   "bus": 48,
+   "ppc": 43,
+   "name": "MV3.101 Bus 48",
+   "zth_pu": 0.002833003563416563,
+   "subnet": "MV3.101_LV5.316_Feeder5"
+  },
+  {
+   "bus": 49,
+   "ppc": 44,
+   "name": "MV3.101 Bus 49",
+   "zth_pu": 0.0030100639666980535,
+   "subnet": "MV3.101_LV6.308_Feeder5"
+  },
+  {
+   "bus": 50,
+   "ppc": 45,
+   "name": "MV3.101 Bus 50",
+   "zth_pu": 0.00315493079797589,
+   "subnet": "MV3.101_LV6.309_Feeder5"
+  },
+  {
+   "bus": 51,
+   "ppc": 46,
+   "name": "MV3.101 Bus 51",
+   "zth_pu": 0.00015355538978453813,
+   "subnet": "MV3.101_LV5.317_Feeder6"
+  },
+  {
+   "bus": 52,
+   "ppc": 47,
+   "name": "MV3.101 Bus 52",
+   "zth_pu": 0.0006421518305578744,
+   "subnet": "MV3.101_LV6.310_Feeder6"
+  },
+  {
+   "bus": 53,
+   "ppc": 48,
+   "name": "MV3.101 Bus 53",
+   "zth_pu": 0.0009492769224297671,
+   "subnet": "MV3.101_LV6.311_Feeder6"
+  },
+  {
+   "bus": 54,
+   "ppc": 49,
+   "name": "MV3.101 Bus 54",
+   "zth_pu": 0.0014378943516899507,
+   "subnet": "MV3.101_LV5.318_Feeder6"
+  },
+  {
+   "bus": 55,
+   "ppc": 50,
+   "name": "MV3.101 Bus 55",
+   "zth_pu": 0.002064861110563949,
+   "subnet": "MV3.101_LV5.319_Feeder6"
+  },
+  {
+   "bus": 56,
+   "ppc": 51,
+   "name": "MV3.101 Bus 56",
+   "zth_pu": 0.0027565723207593745,
+   "subnet": "MV3.101_LV6.312_Feeder6"
+  },
+  {
+   "bus": 57,
+   "ppc": 52,
+   "name": "MV3.101 Bus 57",
+   "zth_pu": 0.0032875538770407646,
+   "subnet": "MV3.101_LV6.313_Feeder6"
+  },
+  {
+   "bus": 58,
+   "ppc": 53,
+   "name": "MV3.101 Bus 58",
+   "zth_pu": 0.0037542228246654173,
+   "subnet": "MV3.101_LV6.314_Feeder6"
+  },
+  {
+   "bus": 59,
+   "ppc": 54,
+   "name": "MV3.101 Bus 59",
+   "zth_pu": 0.0001834542579629929,
+   "subnet": "MV3.101_LV5.320_Feeder7"
+  },
+  {
+   "bus": 60,
+   "ppc": 55,
+   "name": "MV3.101 Bus 60",
+   "zth_pu": 0.0004769893611659559,
+   "subnet": "MV3.101_LV4.316_Feeder7"
+  },
+  {
+   "bus": 61,
+   "ppc": 56,
+   "name": "MV3.101 Bus 61",
+   "zth_pu": 0.000966234631493382,
+   "subnet": "MV3.101_LV6.315_Feeder7"
+  },
+  {
+   "bus": 62,
+   "ppc": 57,
+   "name": "MV3.101 Bus 62",
+   "zth_pu": 0.0012353285593881492,
+   "subnet": "MV3.101_LV4.317_Feeder7"
+  },
+  {
+   "bus": 63,
+   "ppc": 58,
+   "name": "MV3.101 Bus 63",
+   "zth_pu": 0.0017080547572511419,
+   "subnet": "MV3.101_LV6.316_Feeder7"
+  },
+  {
+   "bus": 64,
+   "ppc": 59,
+   "name": "MV3.101 Bus 64",
+   "zth_pu": 0.002279208457744353,
+   "subnet": "MV3.101_LV5.321_Feeder7"
+  },
+  {
+   "bus": 65,
+   "ppc": 60,
+   "name": "MV3.101 Bus 65",
+   "zth_pu": 0.0025162031049709823,
+   "subnet": "MV3.101_LV6.317_Feeder7"
+  },
+  {
+   "bus": 66,
+   "ppc": 61,
+   "name": "MV3.101 Bus 66",
+   "zth_pu": 0.002850888965033215,
+   "subnet": "MV3.101_LV6.318_Feeder7"
+  },
+  {
+   "bus": 67,
+   "ppc": 62,
+   "name": "MV3.101 Bus 67",
+   "zth_pu": 0.003032215786002725,
+   "subnet": "MV3.101_LV4.318_Feeder7"
+  },
+  {
+   "bus": 68,
+   "ppc": 63,
+   "name": "MV3.101 Bus 68",
+   "zth_pu": 0.0034786304258652818,
+   "subnet": "MV3.101_LV6.319_Feeder7"
+  },
+  {
+   "bus": 69,
+   "ppc": 64,
+   "name": "MV3.101 Bus 69",
+   "zth_pu": 0.0037716371887153875,
+   "subnet": "MV3.101_LV6.320_Feeder7"
+  },
+  {
+   "bus": 70,
+   "ppc": 65,
+   "name": "MV3.101 Bus 70",
+   "zth_pu": 0.0043437700147005666,
+   "subnet": "MV3.101_LV6.321_Feeder7"
+  },
+  {
+   "bus": 71,
+   "ppc": 66,
+   "name": "MV3.101 Bus 71",
+   "zth_pu": 0.004929920358117613,
+   "subnet": "MV3.101_LV5.322_Feeder7"
+  },
+  {
+   "bus": 72,
+   "ppc": 67,
+   "name": "MV3.101 Bus 72",
+   "zth_pu": 0.0052090529800453015,
+   "subnet": "MV3.101_LV5.323_Feeder7"
+  },
+  {
+   "bus": 73,
+   "ppc": 68,
+   "name": "MV3.101 Bus 73",
+   "zth_pu": 0.005390492139986323,
+   "subnet": "MV3.101_LV5.324_Feeder7"
+  },
+  {
+   "bus": 74,
+   "ppc": 69,
+   "name": "MV3.101 Bus 74",
+   "zth_pu": 0.005697546523350456,
+   "subnet": "MV3.101_LV4.319_Feeder7"
+  },
+  {
+   "bus": 75,
+   "ppc": 70,
+   "name": "MV3.101 Bus 75",
+   "zth_pu": 0.006074388867833414,
+   "subnet": "MV3.101_LV4.320_Feeder7"
+  },
+  {
+   "bus": 76,
+   "ppc": 71,
+   "name": "MV3.101 Bus 76",
+   "zth_pu": 0.006437273606285785,
+   "subnet": "MV3.101_LV6.322_Feeder7"
+  },
+  {
+   "bus": 77,
+   "ppc": 72,
+   "name": "MV3.101 Bus 77",
+   "zth_pu": 9.784169967070561e-05,
+   "subnet": "MV3.101_LV5.325_Feeder8"
+  },
+  {
+   "bus": 78,
+   "ppc": 73,
+   "name": "MV3.101 Bus 78",
+   "zth_pu": 0.00028129777358845595,
+   "subnet": "MV3.101_LV4.321_Feeder8"
+  },
+  {
+   "bus": 79,
+   "ppc": 74,
+   "name": "MV3.101 Bus 79",
+   "zth_pu": 0.0005136805132949353,
+   "subnet": "MV3.101_LV4.322_Feeder8"
+  },
+  {
+   "bus": 80,
+   "ppc": 75,
+   "name": "MV3.101 Bus 80",
+   "zth_pu": 0.0008072238903052778,
+   "subnet": "MV3.101_LV6.323_Feeder8"
+  },
+  {
+   "bus": 81,
+   "ppc": 76,
+   "name": "MV3.101 Bus 81",
+   "zth_pu": 0.0009050733020920744,
+   "subnet": "MV3.101_LV5.326_Feeder8"
+  },
+  {
+   "bus": 82,
+   "ppc": 77,
+   "name": "MV3.101 Bus 82",
+   "zth_pu": 0.0011007743447043348,
+   "subnet": "MV3.101_LV5.327_Feeder8"
+  },
+  {
+   "bus": 83,
+   "ppc": 78,
+   "name": "MV3.101 Bus 83",
+   "zth_pu": 0.0015166476547627916,
+   "subnet": "MV3.101_LV6.324_Feeder8"
+  },
+  {
+   "bus": 84,
+   "ppc": 79,
+   "name": "MV3.101 Bus 84",
+   "zth_pu": 0.002005921750044581,
+   "subnet": "MV3.101_LV5.328_Feeder8"
+  },
+  {
+   "bus": 85,
+   "ppc": 80,
+   "name": "MV3.101 Bus 85",
+   "zth_pu": 0.002238329797072231,
+   "subnet": "MV3.101_LV5.329_Feeder8"
+  },
+  {
+   "bus": 86,
+   "ppc": 81,
+   "name": "MV3.101 Bus 86",
+   "zth_pu": 0.002397344159130147,
+   "subnet": "MV3.101_LV5.330_Feeder8"
+  },
+  {
+   "bus": 87,
+   "ppc": 82,
+   "name": "MV3.101 Bus 87",
+   "zth_pu": 0.0028745977454784546,
+   "subnet": "MV3.101_LV6.325_Feeder8"
+  },
+  {
+   "bus": 88,
+   "ppc": 83,
+   "name": "MV3.101 Bus 88",
+   "zth_pu": 0.0030819600495474208,
+   "subnet": "MV3.101_LV5.331_Feeder8"
+  },
+  {
+   "bus": 89,
+   "ppc": 84,
+   "name": "MV3.101 Bus 89",
+   "zth_pu": 0.003497370882926808,
+   "subnet": "MV3.101_LV6.326_Feeder8"
+  },
+  {
+   "bus": 90,
+   "ppc": 85,
+   "name": "MV3.101 Bus 90",
+   "zth_pu": 0.0040575991870812145,
+   "subnet": "MV3.101_LV5.332_Feeder8"
+  },
+  {
+   "bus": 91,
+   "ppc": 86,
+   "name": "MV3.101 Bus 91",
+   "zth_pu": 0.004682756853871917,
+   "subnet": "MV3.101_LV4.323_Feeder8"
+  },
+  {
+   "bus": 92,
+   "ppc": 87,
+   "name": "MV3.101 Bus 92",
+   "zth_pu": 0.005196179587650788,
+   "subnet": "MV3.101_LV6.327_Feeder8"
+  },
+  {
+   "bus": 93,
+   "ppc": 88,
+   "name": "MV3.101 Bus 93",
+   "zth_pu": 0.005886544180443135,
+   "subnet": "MV3.101_LV6.328_Feeder8"
+  },
+  {
+   "bus": 94,
+   "ppc": 89,
+   "name": "MV3.101 Bus 94",
+   "zth_pu": 0.0005304688886767958,
+   "subnet": "MV3.101_LV6.329_Feeder9"
+  },
+  {
+   "bus": 95,
+   "ppc": 90,
+   "name": "MV3.101 Bus 95",
+   "zth_pu": 0.0008515484574789209,
+   "subnet": "MV3.101_LV4.324_Feeder9"
+  },
+  {
+   "bus": 96,
+   "ppc": 91,
+   "name": "MV3.101 Bus 96",
+   "zth_pu": 0.00104698999844668,
+   "subnet": "MV3.101_LV5.333_Feeder9"
+  },
+  {
+   "bus": 97,
+   "ppc": 92,
+   "name": "MV3.101 Bus 97",
+   "zth_pu": 0.0014378762222640607,
+   "subnet": "MV3.101_LV4.325_Feeder9"
+  },
+  {
+   "bus": 98,
+   "ppc": 93,
+   "name": "MV3.101 Bus 98",
+   "zth_pu": 0.0016950170905866467,
+   "subnet": "MV3.101_LV5.334_Feeder9"
+  },
+  {
+   "bus": 99,
+   "ppc": 94,
+   "name": "MV3.101 Bus 99",
+   "zth_pu": 0.002370443018136403,
+   "subnet": "MV3.101_LV5.335_Feeder9"
+  },
+  {
+   "bus": 100,
+   "ppc": 95,
+   "name": "MV3.101 Bus 100",
+   "zth_pu": 0.002788723681270364,
+   "subnet": "MV3.101_LV6.330_Feeder9"
+  },
+  {
+   "bus": 101,
+   "ppc": 96,
+   "name": "MV3.101 Bus 101",
+   "zth_pu": 0.003126612697286578,
+   "subnet": "MV3.101_LV5.336_Feeder9"
+  },
+  {
+   "bus": 102,
+   "ppc": 97,
+   "name": "MV3.101 Bus 102",
+   "zth_pu": 0.0037380944044938234,
+   "subnet": "MV3.101_LV4.326_Feeder9"
+  },
+  {
+   "bus": 103,
+   "ppc": 98,
+   "name": "MV3.101 Bus 103",
+   "zth_pu": 0.004156504231345862,
+   "subnet": "MV3.101_LV4.327_Feeder9"
+  },
+  {
+   "bus": 104,
+   "ppc": 99,
+   "name": "MV3.101 Bus 104",
+   "zth_pu": 0.0045588323836825845,
+   "subnet": "MV3.101_LV4.328_Feeder9"
+  },
+  {
+   "bus": 105,
+   "ppc": 100,
+   "name": "MV3.101 Bus 105",
+   "zth_pu": 0.0003669099032864844,
+   "subnet": "MV3.101_LV5.337_Feeder10"
+  },
+  {
+   "bus": 106,
+   "ppc": 101,
+   "name": "MV3.101 Bus 106",
+   "zth_pu": 0.0006971371019730371,
+   "subnet": "MV3.101_LV4.329_Feeder10"
+  },
+  {
+   "bus": 107,
+   "ppc": 102,
+   "name": "MV3.101 Bus 107",
+   "zth_pu": 0.001161911660902013,
+   "subnet": "MV3.101_LV4.330_Feeder10"
+  },
+  {
+   "bus": 108,
+   "ppc": 103,
+   "name": "MV3.101 Bus 108",
+   "zth_pu": 0.0014921513426839937,
+   "subnet": "MV3.101_LV5.338_Feeder10"
+  },
+  {
+   "bus": 109,
+   "ppc": 104,
+   "name": "MV3.101 Bus 109",
+   "zth_pu": 0.0016828967300955926,
+   "subnet": "MV3.101_LV4.331_Feeder10"
+  },
+  {
+   "bus": 110,
+   "ppc": 105,
+   "name": "MV3.101 Bus 110",
+   "zth_pu": 0.0020977044861650264,
+   "subnet": "MV3.101_LV5.339_Feeder10"
+  },
+  {
+   "bus": 111,
+   "ppc": 106,
+   "name": "MV3.101 Bus 111",
+   "zth_pu": 0.0025457896557670775,
+   "subnet": "MV3.101_LV5.340_Feeder10"
+  },
+  {
+   "bus": 112,
+   "ppc": 107,
+   "name": "MV3.101 Bus 112",
+   "zth_pu": 0.003219307050171095,
+   "subnet": "MV3.101_LV5.341_Feeder10"
+  },
+  {
+   "bus": 113,
+   "ppc": 108,
+   "name": "MV3.101 Bus 113",
+   "zth_pu": 0.003508261012929361,
+   "subnet": "MV3.101_LV4.332_Feeder10"
+  },
+  {
+   "bus": 114,
+   "ppc": 109,
+   "name": "MV3.101 Bus 114",
+   "zth_pu": 0.004166844757144484,
+   "subnet": "MV3.101_LV6.331_Feeder10"
+  },
+  {
+   "bus": 115,
+   "ppc": 110,
+   "name": "MV3.101 Bus 115",
+   "zth_pu": 0.004536468269877916,
+   "subnet": "MV3.101_LV5.342_Feeder10"
+  },
+  {
+   "bus": 116,
+   "ppc": 111,
+   "name": "MV3.101 Bus 116",
+   "zth_pu": 0.005018713097216799,
+   "subnet": "MV3.101_LV6.332_Feeder10"
+  },
+  {
+   "bus": 117,
+   "ppc": 112,
+   "name": "MV3.101 Bus 117",
+   "zth_pu": 0.005243798417969405,
+   "subnet": "MV3.101_LV5.343_Feeder10"
+  },
+  {
+   "bus": 118,
+   "ppc": 113,
+   "name": "MV3.101 Bus 118",
+   "zth_pu": 0.005517141739345391,
+   "subnet": "MV3.101_LV5.344_Feeder10"
+  },
+  {
+   "bus": 119,
+   "ppc": 114,
+   "name": "MV3.101 Bus 119",
+   "zth_pu": 0.0018993566403732445,
+   "subnet": "MV3.101_LV3.301_Feeder11"
+  },
+  {
+   "bus": 120,
+   "ppc": 115,
+   "name": "MV3.101 Bus 120",
+   "zth_pu": 0.00232352840195242,
+   "subnet": "MV3.101_LV3.302_Feeder11"
+  },
+  {
+   "bus": 121,
+   "ppc": 116,
+   "name": "MV3.101 Bus 121",
+   "zth_pu": 0.0025507466712263774,
+   "subnet": "MV3.101_LV3.303_Feeder11"
+  },
+  {
+   "bus": 122,
+   "ppc": 117,
+   "name": "MV3.101 Bus 122",
+   "zth_pu": 0.0031688294346312977,
+   "subnet": "MV3.101_LV4.333_Feeder11"
+  },
+  {
+   "bus": 123,
+   "ppc": 118,
+   "name": "MV3.101 Bus 123",
+   "zth_pu": 0.0033528567616834754,
+   "subnet": "MV3.101_LV5.345_Feeder11"
+  },
+  {
+   "bus": 124,
+   "ppc": 119,
+   "name": "MV3.101 Bus 124",
+   "zth_pu": 0.003721748634871141,
+   "subnet": "MV3.101_LV4.334_Feeder11"
+  },
+  {
+   "bus": 125,
+   "ppc": 120,
+   "name": "MV3.101 Bus 125",
+   "zth_pu": 0.0014398848761432166,
+   "subnet": "MV3.101_LV3.304_Feeder12"
+  },
+  {
+   "bus": 126,
+   "ppc": 121,
+   "name": "MV3.101 Bus 126",
+   "zth_pu": 0.0017265115605804061,
+   "subnet": "MV3.101_LV5.346_Feeder12"
+  },
+  {
+   "bus": 127,
+   "ppc": 122,
+   "name": "MV3.101 Bus 127",
+   "zth_pu": 0.0021779778568951544,
+   "subnet": "MV3.101_LV5.347_Feeder12"
+  },
+  {
+   "bus": 128,
+   "ppc": 123,
+   "name": "MV3.101 Bus 128",
+   "zth_pu": 0.002818585279667612,
+   "subnet": "MV3.101_LV5.348_Feeder12"
+  },
+  {
+   "bus": 129,
+   "ppc": 124,
+   "name": "MV3.101 Bus 129",
+   "zth_pu": 0.003187069567977885,
+   "subnet": "MV3.101_LV4.335_Feeder12"
+  },
+  {
+   "bus": 130,
+   "ppc": 125,
+   "name": "MV3.101 Bus 130",
+   "zth_pu": 0.00217414409679437,
+   "subnet": "MV3.101_LV5.349_Feeder13"
+  },
+  {
+   "bus": 131,
+   "ppc": 126,
+   "name": "MV3.101 Bus 131",
+   "zth_pu": 0.002746417807542549,
+   "subnet": "MV3.101_LV4.336_Feeder13"
+  },
+  {
+   "bus": 132,
+   "ppc": 127,
+   "name": "MV3.101 Bus 132",
+   "zth_pu": 0.003105889977099766,
+   "subnet": "MV3.101_LV3.305_Feeder13"
+  },
+  {
+   "bus": 133,
+   "ppc": 128,
+   "name": "MV3.101 Bus 133",
+   "zth_pu": 0.004061700908341687,
+   "subnet": "MV3.101_LV4.337_Feeder13"
+  },
+  {
+   "bus": 134,
+   "ppc": 129,
+   "name": "MV3.101 Bus 134",
+   "zth_pu": 0.004589594629541413,
+   "subnet": "MV3.101_LV3.306_Feeder13"
+  },
+  {
+   "bus": 135,
+   "ppc": 130,
+   "name": "MV3.101 Bus 135",
+   "zth_pu": 0.004888856490841504,
+   "subnet": "MV3.101_LV5.350_Feeder13"
+  },
+  {
+   "bus": 136,
+   "ppc": 131,
+   "name": "MV3.101 Bus 136",
+   "zth_pu": 0.0019850350082911516,
+   "subnet": "MV3.101_LV4.338_Feeder14"
+  },
+  {
+   "bus": 137,
+   "ppc": 132,
+   "name": "MV3.101 Bus 137",
+   "zth_pu": 0.0021741452985604036,
+   "subnet": "MV3.101_LV4.339_Feeder14"
+  },
+  {
+   "bus": 138,
+   "ppc": 133,
+   "name": "MV3.101 Bus 138",
+   "zth_pu": 0.0023642124696737305,
+   "subnet": "MV3.101_LV3.307_Feeder14"
+  },
+  {
+   "bus": 139,
+   "ppc": 134,
+   "name": "MV3.101 Bus 139",
+   "zth_pu": 0.003034378566634903,
+   "subnet": "MV3.101_LV4.340_Feeder14"
+  },
+  {
+   "bus": 140,
+   "ppc": 135,
+   "name": "MV3.101 Bus 140",
+   "zth_pu": 0.003207546632047793,
+   "subnet": "MV3.101_LV4.341_Feeder14"
+  },
+  {
+   "bus": 141,
+   "ppc": 136,
+   "name": "MV3.101 Bus 141",
+   "zth_pu": 0.0038056445618480502,
+   "subnet": "MV3.101_LV3.308_Feeder14"
+  },
+  {
+   "bus": 142,
+   "ppc": 137,
+   "name": "MV3.101 Bus 142",
+   "zth_pu": 0.003979646090545386,
+   "subnet": "MV3.101_LV4.342_Feeder14"
+  },
+  {
+   "bus": 143,
+   "ppc": 138,
+   "name": "MV3.101 Bus 143",
+   "zth_pu": 0.0045798505392886215,
+   "subnet": "MV3.101_LV3.309_Feeder14"
+  }
+ ],
+ "base_viol": {
+  "vlow": 0,
+  "vhigh": 0,
+  "line": 0,
+  "trafo": 0
+ },
+ "T": 35136,
+ "n_bus": 144,
+ "n_line": 147,
+ "load_mw": 49.706999999999994,
+ "sgen_mw": 13.557000000000002,
+ "trafo_mva": 126.0,
+ "peak_load_prof": 20.81711857899997,
+ "vn_kv": 10.0
+}

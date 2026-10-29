@@ -1,0 +1,199 @@
+{
+ "grid": "urban",
+ "code": "1-MV-urban--0-sw",
+ "scenario": 0,
+ "pf": 1.0,
+ "mode": "oltc",
+ "line_limit": 1.0,
+ "meta": [
+  {
+   "bus": 3,
+   "ppc": 1,
+   "name": "MV3.101 node2",
+   "zth_pu": 0.0,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 9,
+   "ppc": 4,
+   "name": "MV3.101 BS busbar1B",
+   "zth_pu": 0.0014969631135896579,
+   "subnet": "MV3.101"
+  },
+  {
+   "bus": 12,
+   "ppc": 7,
+   "name": "MV3.101 Bus 12",
+   "zth_pu": 0.0005625945721768607,
+   "subnet": "MV3.101_LV4.302_Feeder1"
+  },
+  {
+   "bus": 27,
+   "ppc": 22,
+   "name": "MV3.101 Bus 27",
+   "zth_pu": 0.0009492685433473255,
+   "subnet": "MV3.101_LV5.306_Feeder3"
+  },
+  {
+   "bus": 28,
+   "ppc": 23,
+   "name": "MV3.101 Bus 28",
+   "zth_pu": 0.0013680737224631497,
+   "subnet": "MV3.101_LV4.309_Feeder3"
+  },
+  {
+   "bus": 32,
+   "ppc": 27,
+   "name": "MV3.101 Bus 32",
+   "zth_pu": 0.0025309371774637356,
+   "subnet": "MV3.101_LV6.304_Feeder3"
+  },
+  {
+   "bus": 36,
+   "ppc": 31,
+   "name": "MV3.101 Bus 36",
+   "zth_pu": 9.784162022296183e-05,
+   "subnet": "MV3.101_LV6.306_Feeder4"
+  },
+  {
+   "bus": 39,
+   "ppc": 34,
+   "name": "MV3.101 Bus 39",
+   "zth_pu": 0.0009662185649837606,
+   "subnet": "MV3.101_LV4.314_Feeder4"
+  },
+  {
+   "bus": 41,
+   "ppc": 36,
+   "name": "MV3.101 Bus 41",
+   "zth_pu": 0.0001609631910518135,
+   "subnet": "MV3.101_LV5.310_Feeder5"
+  },
+  {
+   "bus": 42,
+   "ppc": 37,
+   "name": "MV3.101 Bus 42",
+   "zth_pu": 0.00035412013890635775,
+   "subnet": "MV3.101_LV5.311_Feeder5"
+  },
+  {
+   "bus": 46,
+   "ppc": 41,
+   "name": "MV3.101 Bus 46",
+   "zth_pu": 0.0018833032889960812,
+   "subnet": "MV3.101_LV5.314_Feeder5"
+  },
+  {
+   "bus": 49,
+   "ppc": 44,
+   "name": "MV3.101 Bus 49",
+   "zth_pu": 0.0030100639666980535,
+   "subnet": "MV3.101_LV6.308_Feeder5"
+  },
+  {
+   "bus": 62,
+   "ppc": 57,
+   "name": "MV3.101 Bus 62",
+   "zth_pu": 0.0012353285593881492,
+   "subnet": "MV3.101_LV4.317_Feeder7"
+  },
+  {
+   "bus": 63,
+   "ppc": 58,
+   "name": "MV3.101 Bus 63",
+   "zth_pu": 0.0017080547572511419,
+   "subnet": "MV3.101_LV6.316_Feeder7"
+  },
+  {
+   "bus": 74,
+   "ppc": 69,
+   "name": "MV3.101 Bus 74",
+   "zth_pu": 0.005697546523350456,
+   "subnet": "MV3.101_LV4.319_Feeder7"
+  },
+  {
+   "bus": 75,
+   "ppc": 70,
+   "name": "MV3.101 Bus 75",
+   "zth_pu": 0.006074388867833414,
+   "subnet": "MV3.101_LV4.320_Feeder7"
+  },
+  {
+   "bus": 84,
+   "ppc": 79,
+   "name": "MV3.101 Bus 84",
+   "zth_pu": 0.002005921750044581,
+   "subnet": "MV3.101_LV5.328_Feeder8"
+  },
+  {
+   "bus": 107,
+   "ppc": 102,
+   "name": "MV3.101 Bus 107",
+   "zth_pu": 0.001161911660902013,
+   "subnet": "MV3.101_LV4.330_Feeder10"
+  },
+  {
+   "bus": 108,
+   "ppc": 103,
+   "name": "MV3.101 Bus 108",
+   "zth_pu": 0.0014921513426839937,
+   "subnet": "MV3.101_LV5.338_Feeder10"
+  },
+  {
+   "bus": 113,
+   "ppc": 108,
+   "name": "MV3.101 Bus 113",
+   "zth_pu": 0.003508261012929361,
+   "subnet": "MV3.101_LV4.332_Feeder10"
+  },
+  {
+   "bus": 119,
+   "ppc": 114,
+   "name": "MV3.101 Bus 119",
+   "zth_pu": 0.0018993566403732445,
+   "subnet": "MV3.101_LV3.301_Feeder11"
+  },
+  {
+   "bus": 123,
+   "ppc": 118,
+   "name": "MV3.101 Bus 123",
+   "zth_pu": 0.0033528567616834754,
+   "subnet": "MV3.101_LV5.345_Feeder11"
+  },
+  {
+   "bus": 124,
+   "ppc": 119,
+   "name": "MV3.101 Bus 124",
+   "zth_pu": 0.003721748634871141,
+   "subnet": "MV3.101_LV4.334_Feeder11"
+  },
+  {
+   "bus": 136,
+   "ppc": 131,
+   "name": "MV3.101 Bus 136",
+   "zth_pu": 0.0019850350082911516,
+   "subnet": "MV3.101_LV4.338_Feeder14"
+  },
+  {
+   "bus": 143,
+   "ppc": 138,
+   "name": "MV3.101 Bus 143",
+   "zth_pu": 0.0045798505392886215,
+   "subnet": "MV3.101_LV3.309_Feeder14"
+  }
+ ],
+ "base_viol": {
+  "vlow": 0,
+  "vhigh": 0,
+  "line": 0,
+  "trafo": 0
+ },
+ "T": 35136,
+ "n_bus": 144,
+ "n_line": 147,
+ "load_mw": 49.706999999999994,
+ "sgen_mw": 13.557000000000002,
+ "trafo_mva": 126.0,
+ "peak_load_prof": 20.81711857899997,
+ "vn_kv": 10.0
+}

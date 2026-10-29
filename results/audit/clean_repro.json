@@ -1,0 +1,86 @@
+[
+ {
+  "grid": "rural",
+  "bus": 74,
+  "max_abs_diff_kW": 2.926109956184142,
+  "firm_new": 2.766239082353151,
+  "firm_stored": 2.7662391662597656
+ },
+ {
+  "grid": "rural",
+  "bus": 91,
+  "max_abs_diff_kW": 4.289072931749516,
+  "firm_new": 1.6934067155645987,
+  "firm_stored": 1.6934067010879517
+ },
+ {
+  "grid": "rural",
+  "bus": 50,
+  "max_abs_diff_kW": 3.8122318602269445,
+  "firm_new": 7.571195084567901,
+  "firm_stored": 7.571195125579834
+ },
+ {
+  "grid": "semiurb",
+  "bus": 60,
+  "max_abs_diff_kW": 0.0002384160540103153,
+  "firm_new": 6.3374374980406385,
+  "firm_stored": 6.337437629699707
+ },
+ {
+  "grid": "semiurb",
+  "bus": 109,
+  "max_abs_diff_kW": 0.00023841173213412503,
+  "firm_new": 5.687350815616704,
+  "firm_stored": 5.687350749969482
+ },
+ {
+  "grid": "semiurb",
+  "bus": 113,
+  "max_abs_diff_kW": 0.000238413137232385,
+  "firm_new": 4.164071179487126,
+  "firm_stored": 4.164071083068848
+ },
+ {
+  "grid": "urban",
+  "bus": 95,
+  "max_abs_diff_kW": 0.0002384140032063442,
+  "firm_new": 6.379532588258619,
+  "firm_stored": 6.379532814025879
+ },
+ {
+  "grid": "urban",
+  "bus": 83,
+  "max_abs_diff_kW": 0.0004768278252242908,
+  "firm_new": 6.653509017802207,
+  "firm_stored": 6.653509140014648
+ },
+ {
+  "grid": "urban",
+  "bus": 48,
+  "max_abs_diff_kW": 0.00023841720331319038,
+  "firm_new": 5.233661584597901,
+  "firm_stored": 5.233661651611328
+ },
+ {
+  "grid": "comm",
+  "bus": 52,
+  "max_abs_diff_kW": 0.000476815003480624,
+  "firm_new": 7.256790421540249,
+  "firm_stored": 7.256790637969971
+ },
+ {
+  "grid": "comm",
+  "bus": 39,
+  "max_abs_diff_kW": 0.00047682372539270546,
+  "firm_new": 7.776906767131983,
+  "firm_stored": 7.776906967163086
+ },
+ {
+  "grid": "comm",
+  "bus": 60,
+  "max_abs_diff_kW": 0.0004768212296113461,
+  "firm_new": 7.544084473072858,
+  "firm_stored": 7.544084548950195
+ }
+]

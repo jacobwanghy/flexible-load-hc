@@ -1,0 +1,66 @@
+[
+ {
+  "g": "Rural",
+  "vn": 20.0,
+  "buses": 97,
+  "lines": 99,
+  "trafo": 50.0,
+  "peak": 7.5093574420000015,
+  "peaknet": 6.299442682675,
+  "gen": 25.565,
+  "viol": {
+   "vlow": 0,
+   "vhigh": 1753,
+   "line": 0,
+   "trafo": 0
+  }
+ },
+ {
+  "g": "Semi-urban",
+  "vn": 20.0,
+  "buses": 117,
+  "lines": 121,
+  "trafo": 80.0,
+  "peak": 13.402291592000001,
+  "peaknet": 12.0838244589,
+  "gen": 23.798999999999996,
+  "viol": {
+   "vlow": 0,
+   "vhigh": 28,
+   "line": 0,
+   "trafo": 0
+  }
+ },
+ {
+  "g": "Urban",
+  "vn": 10.0,
+  "buses": 144,
+  "lines": 147,
+  "trafo": 126.0,
+  "peak": 20.980608967,
+  "peaknet": 19.818332648,
+  "gen": 13.557000000000002,
+  "viol": {
+   "vlow": 0,
+   "vhigh": 0,
+   "line": 0,
+   "trafo": 0
+  }
+ },
+ {
+  "g": "Commercial",
+  "vn": 20.0,
+  "buses": 107,
+  "lines": 109,
+  "trafo": 80.0,
+  "peak": 14.936360416000001,
+  "peaknet": 13.368992953934999,
+  "gen": 16.634500000000003,
+  "viol": {
+   "vlow": 0,
+   "vhigh": 21,
+   "line": 0,
+   "trafo": 0
+  }
+ }
+]

@@ -1,0 +1,26 @@
+{
+ "rural": {
+  "samples": 30,
+  "feasible_at_Pbar": 30,
+  "violated_at_Pbar_plus_20kW": 30,
+  "failures": []
+ },
+ "semiurb": {
+  "samples": 30,
+  "feasible_at_Pbar": 30,
+  "violated_at_Pbar_plus_20kW": 30,
+  "failures": []
+ },
+ "urban": {
+  "samples": 30,
+  "feasible_at_Pbar": 30,
+  "violated_at_Pbar_plus_20kW": 30,
+  "failures": []
+ },
+ "comm": {
+  "samples": 30,
+  "feasible_at_Pbar": 30,
+  "violated_at_Pbar_plus_20kW": 30,
+  "failures": []
+ }
+}
