@@ -70,7 +70,7 @@ with open("../tex/tab_sens.tex", "w") as f:
                       h100=((x.h100 / fm - 1) * 100).median(), hrs1=x.hrs1.median())
             f.write(f"Daily swing $\\pm$20\\% & {sv['firm']:.2f} & {sv['g025']:.1f} & {sv['g1']:.1f} & {sv['h100']:.1f} & {sv['hrs1']:.0f} & -- \\\\\n")
             macros.update(shpRowFirm=f"{sv['firm']:.2f}", shpRowGone=f"{sv['g1']:.1f}", shpRowHrs=f"{sv['hrs1']:.0f}")
-    f.write("\\bottomrule\n\\end{tabular}\n\\vspace{2pt}\n\\begin{minipage}{\\columnwidth}\\footnotesize Daily swing: load $Pf(t)$ peaking at 15:00, mean $0.8P$; firm HC is its peak $P$; budgets relative to its own energy. V/L/T: buses whose firm HC is set by undervoltage, line, or transformer limits; one scenario-2 bus next to a pre-existing overvoltage is counted by the limit violated just above its headroom.\\end{minipage}\n\\end{table}\n")
+    f.write("\\bottomrule\n\\end{tabular}\n\\vspace{2pt}\n\\begin{minipage}{\\columnwidth}\\footnotesize Daily swing: load $Pf(t)$ peaking at 15:00, mean $0.8P$; firm HC is its peak $P$; budgets relative to its own energy. Scenario 2 has 460 MV buses. V/L/T: buses whose firm HC is set by undervoltage, line, or transformer limits; one scenario-2 bus next to a pre-existing overvoltage is counted by the limit violated just above its headroom.\\end{minipage}\n\\end{table}\n")
 with open("../tex/numbers_sens.tex", "w") as f:
     for k, v in sorted(macros.items()):
         f.write(f"\\newcommand{{\\{k}}}{{{v}}}\n")

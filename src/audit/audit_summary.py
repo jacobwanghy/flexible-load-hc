@@ -32,6 +32,7 @@ for g in ["rural", "semiurb", "urban", "comm"]:
     g1pi += list(srt[:, k] / srt[:, 0] - 1)
 n1 = sum([json.load(open(f)) for f in sorted(glob.glob(f"{A}/n1_ppcheck_*.json"))], [])
 mac["nOnePPN"] = str(len(n1)); mac["nOnePPOK"] = str(sum(x["feasible_at"] and x["infeasible_above"] for x in n1))
+mac["audTestsN"] = str(S["tests_total"])
 mac["gonepctint"] = f"{np.median(g1pi) * 100:.1f}"
 with open(os.path.join(os.path.dirname(__file__), "..", "..", "tex", "numbers_audit.tex"), "w") as f:
     for k, x in sorted(mac.items()):
