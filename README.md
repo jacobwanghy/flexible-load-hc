@@ -51,7 +51,8 @@ written to `tex/tab_*.tex` and figures to `tex/figs/`.
 | `src/n1_post.py` | Metadata for the N-1 results (used by `sensitivity.py`) |
 | `src/forecast_headroom.py` | Net-load-based headroom forecasts (day-ahead and 15-min) |
 | `src/robustness.py`, `src/robustness_oos.py`, `src/robustness_fc.py` | Imperfect foresight: persistence (in sample, alternating weeks, half-years) and stronger forecasts (seasonal-naive, seasonally adjusted persistence, net-load based; alternating weeks and blocked half-years) |
-| `src/tod.py` | Static time-of-day baseline (fixed curtailment window, no measurement) |
+| `src/tod.py` | Fixed-schedule baseline (fixed curtailment window, no measurement) |
+| `src/depthcap.py` | Hosting capacity with curtailment depth capped at 25 % of nameplate |
 | `src/figures.py`, `src/analyze.py` | Fig. 1, Fig. 2, Tables I and II, main number macros |
 | `src/sensitivity.py` | Table IV (network assumptions incl. N-1) |
 | `src/contract.py` | Contract-parameter table (Table III) |
