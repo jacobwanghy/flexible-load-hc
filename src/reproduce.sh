@@ -47,6 +47,7 @@ python3 robustness_oos.py     # persistence, alternating weeks and half-years, n
 python3 robustness_fc.py      # stronger forecasts, alternating weeks and half-years, numbers_fc.tex
 python3 tod.py                # fixed-schedule baseline, numbers_tod.tex
 python3 depthcap.py           # curtailment depth capped at 25 %, numbers_depth.tex
+python3 corrective.py         # bounded corrective N-1 case, numbers_corr.tex
 python3 shapes_final.py       # daily-shape cases, numbers_shapes.tex
 python3 battery.py            # numbers_batt.tex
 python3 pf_compare.py         # numbers_pf.tex

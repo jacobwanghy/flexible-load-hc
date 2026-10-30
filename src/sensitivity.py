@@ -1,6 +1,7 @@
 """Pooled metrics for the three network configurations -> tab_sens.tex and macros."""
 import os, json
 import numpy as np
+import pandas as pd
 
 CONF = [("_oltc", "Base (ideal OLTC)", "Base"), ("_fixed", "Fixed taps", "Fix"),
         ("_oltc_N1", "N-1, planning band", "Nmo"), ("_oltc_N1w", "N-1, 0.90--1.10 p.u.", "Nmow"),
@@ -62,7 +63,14 @@ with open("../tex/tab_sens.tex", "w") as f:
     f.write(" & (MW) & 0.25\\% & 1\\% & 100 h (\\%) & at 1\\% & V/L/T \\\\\n\\midrule\n")
     for d in rows:
         f.write(f"{d['label']} & {d['firm']:.2f} & {d['g025']:.1f} & {d['g1']:.1f} & {d['h100']:.1f} & {d['hrs1']:.0f} & {d['nv']}/{d['nl']}/{d['nt']} \\\\\n")
-    f.write("\\bottomrule\n\\end{tabular}\n\\vspace{2pt}\n\\begin{minipage}{\\columnwidth}\\footnotesize V/L/T: buses whose firm HC is set by undervoltage, line, or transformer limits; one scenario-2 bus next to a pre-existing overvoltage is counted by the limit violated just above its headroom.\\end{minipage}\n\\end{table}\n")
+        if d["label"].startswith("Fixed taps"):
+            # non-flat new load (from shapes.py): daily swing of +-20 % around the mean, peak at 15:00
+            sh = pd.read_csv("../results/shapes.csv"); x = sh[sh["shape"] == "DC40@15"]; fm = x.firm
+            sv = dict(firm=fm.median(), g025=((x.e025 / fm - 1) * 100).median(), g1=((x.e1 / fm - 1) * 100).median(),
+                      h100=((x.h100 / fm - 1) * 100).median(), hrs1=x.hrs1.median())
+            f.write(f"Daily swing $\\pm$20\\% & {sv['firm']:.2f} & {sv['g025']:.1f} & {sv['g1']:.1f} & {sv['h100']:.1f} & {sv['hrs1']:.0f} & -- \\\\\n")
+            macros.update(shpRowFirm=f"{sv['firm']:.2f}", shpRowGone=f"{sv['g1']:.1f}", shpRowHrs=f"{sv['hrs1']:.0f}")
+    f.write("\\bottomrule\n\\end{tabular}\n\\vspace{2pt}\n\\begin{minipage}{\\columnwidth}\\footnotesize Daily swing: load $Pf(t)$ peaking at 15:00, mean $0.8P$; firm HC is its peak $P$. V/L/T: buses whose firm HC is set by undervoltage, line, or transformer limits; one scenario-2 bus next to a pre-existing overvoltage is counted by the limit violated just above its headroom.\\end{minipage}\n\\end{table}\n")
 with open("../tex/numbers_sens.tex", "w") as f:
     for k, v in sorted(macros.items()):
         f.write(f"\\newcommand{{\\{k}}}{{{v}}}\n")
