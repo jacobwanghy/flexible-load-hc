@@ -50,7 +50,8 @@ written to `tex/tab_*.tex` and figures to `tex/figs/`.
 | `src/n1_topo.py`, `src/n1.py` | N-1 line-outage sensitivity: contingency list with restoration switching; headroom as the minimum over the intact network and all contingencies |
 | `src/n1_post.py` | Metadata for the N-1 results (used by `sensitivity.py`) |
 | `src/forecast_headroom.py` | Net-load-based headroom forecasts (day-ahead and 15-min) |
-| `src/robustness.py`, `src/robustness_oos.py`, `src/robustness_fc.py` | Imperfect foresight: persistence (in sample, alternating weeks, half-years) and stronger forecasts (seasonal-naive, seasonally adjusted persistence, net-load based; alternating weeks) |
+| `src/robustness.py`, `src/robustness_oos.py`, `src/robustness_fc.py` | Imperfect foresight: persistence (in sample, alternating weeks, half-years) and stronger forecasts (seasonal-naive, seasonally adjusted persistence, net-load based; alternating weeks and blocked half-years) |
+| `src/tod.py` | Static time-of-day baseline (fixed curtailment window, no measurement) |
 | `src/figures.py`, `src/analyze.py` | Fig. 1, Fig. 2, Tables I and II, main number macros |
 | `src/sensitivity.py` | Table IV (network assumptions incl. N-1) |
 | `src/contract.py` | Contract-parameter table (Table III) |

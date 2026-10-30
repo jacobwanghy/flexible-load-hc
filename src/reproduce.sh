@@ -44,7 +44,8 @@ python3 n1_post.py            # N-1 metadata for the sensitivity table
 python3 sensitivity.py        # Table IV, numbers_sens.tex
 python3 robustness.py         # in-sample foresight, numbers_rob.tex
 python3 robustness_oos.py     # persistence, alternating weeks and half-years, numbers_oos.tex
-python3 robustness_fc.py      # stronger forecasts, alternating weeks, numbers_fc.tex
+python3 robustness_fc.py      # stronger forecasts, alternating weeks and half-years, numbers_fc.tex
+python3 tod.py                # static time-of-day baseline, numbers_tod.tex
 python3 shapes_final.py       # daily-shape cases, numbers_shapes.tex
 python3 battery.py            # numbers_batt.tex
 python3 pf_compare.py         # numbers_pf.tex

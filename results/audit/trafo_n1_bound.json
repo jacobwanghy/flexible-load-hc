@@ -1,0 +1,26 @@
+{
+ "rural": {
+  "trafo_mva": 50.0,
+  "peak_net_MW": 6.299442682675,
+  "bound_MW": 18.700557317325,
+  "buses_near_bound_oltc": 1,
+  "buses_near_bound_oltc_N1": 1,
+  "n_buses": 94
+ },
+ "semiurb": {
+  "trafo_mva": 80.0,
+  "peak_net_MW": 12.0838244589,
+  "bound_MW": 27.9161755411,
+  "buses_near_bound_oltc": 1,
+  "buses_near_bound_oltc_N1": 1,
+  "n_buses": 114
+ },
+ "comm": {
+  "trafo_mva": 80.0,
+  "peak_net_MW": 13.368992953934999,
+  "bound_MW": 26.631007046065,
+  "buses_near_bound_oltc": 1,
+  "buses_near_bound_oltc_N1": 1,
+  "n_buses": 103
+ }
+}

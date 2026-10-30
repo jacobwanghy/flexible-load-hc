@@ -16,6 +16,7 @@ B(t) is the mean of Pbar at the same time on the last 4 earlier days of the same
 Control law and selection as in robustness.py: L(t) = min(P, (1-m) F(t)); P and m (0..30 %) are chosen on the training
 weeks to maximize P with no violation (L <= Pbar) and curtailed energy <= alpha P |T_train| dt; they are then applied to
 the test weeks. Both directions (even -> odd weeks, odd -> even). A case is one bus and one direction.
+Blocked check: the same with training on January-June and testing on July-December, and the reverse.
 Where no earlier data exist (start of the year) F = Pbar (optimistic, at most the first week).
 Output: results/robustness_fc.csv, tex/numbers_fc.tex
 """
@@ -61,11 +62,13 @@ def run():
             NL = None
         T = PM.shape[1]
         wk = (np.arange(T) // (96 * 7)) % 2 == 0
+        h1 = np.arange(T) < T // 2                     # blocked split: Jan-Jun vs Jul-Dec
         for i, pb in enumerate(PM):
             firm = pb.min()
             Fs = forecasts(pb, None if NL is None else (NL[0][i], NL[1][i]))
             for name, F in Fs.items():
-                for split, (tr, te) in {"EvenWkToOdd": (wk, ~wk), "OddWkToEven": (~wk, wk)}.items():
+                for split, (tr, te) in {"EvenWkToOdd": (wk, ~wk), "OddWkToEven": (~wk, wk),
+                                          "H1toH2": (h1, ~h1), "H2toH1": (~h1, h1)}.items():
                     P, m = best_P(pb[tr], F[tr], ALPHA)
                     L = np.minimum(P, (1 - m) * F[te])
                     viol = L > pb[te] + 1e-9
@@ -83,7 +86,9 @@ def run():
 
 if __name__ == "__main__":
     import sys
-    d = pd.read_csv(f"{RES}/robustness_fc.csv") if "--summary" in sys.argv else run()   # --summary: macros only
+    dall = pd.read_csv(f"{RES}/robustness_fc.csv") if "--summary" in sys.argv else run()   # --summary: macros only
+    blocked = dall[dall.split.str.startswith("H")]
+    d = dall[~dall.split.str.startswith("H")]          # main protocol: alternating weeks
     s = d.groupby("forecast").agg(gain=("gain", "median"), gain_q1=("gain", lambda x: x.quantile(.25)),
                                   gain_q3=("gain", lambda x: x.quantile(.75)), viol=("viol_any", "mean"),
                                   vint=("viol_intervals", "median"), m=("m", "median"), mape=("mape", "median"),
@@ -114,6 +119,18 @@ if __name__ == "__main__":
         mac[f"fcRange{hz}violLo"] = f"{s.loc[lst, 'viol'].min():.0f}"
         mac[f"fcRange{hz}violHi"] = f"{s.loc[lst, 'viol'].max():.0f}"
         print(hz, "best", b)
+    # blocked (half-year) split: same statistics
+    sb_ = blocked.groupby("forecast").agg(gain=("gain", "median"), viol=("viol_any", "mean"))
+    sb_["viol"] *= 100
+    print("blocked half-year split\n", sb_.round(2))
+    for hz, lst in [("Fifteen", H15), ("Da", HDA)]:
+        lst = [f for f in lst if f in sb_.index]
+        mac[f"fcBlk{hz}gainLo"] = f"{sb_.loc[lst, 'gain'].min():.1f}"
+        mac[f"fcBlk{hz}gainHi"] = f"{sb_.loc[lst, 'gain'].max():.1f}"
+        mac[f"fcBlk{hz}violLo"] = f"{sb_.loc[lst, 'viol'].min():.0f}"
+        mac[f"fcBlk{hz}violHi"] = f"{sb_.loc[lst, 'viol'].max():.0f}"
+    sb_.round(3).to_csv(f"{RES}/robustness_fc_blocked_summary.csv")
+    mac["fcDaMaxAll"] = f"{max(s.loc[[x for x in HDA if x in s.index], 'gain'].max(), sb_.loc[[x for x in HDA if x in sb_.index], 'gain'].max()):.1f}"
     with open("../tex/numbers_fc.tex", "w") as fh:
         for k, v in sorted(mac.items()):
             fh.write(f"\\newcommand{{\\{k}}}{{{v}}}\n")
